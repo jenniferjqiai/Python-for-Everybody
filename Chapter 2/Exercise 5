@@ -1,0 +1,3 @@
+celsius = int(input('What is the celsius temperature?'))
+fahrenheit = (celsius/5)*9+32 
+print('Convert to Fahrenheit', fahrenheit)
