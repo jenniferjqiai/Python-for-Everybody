@@ -9,7 +9,6 @@ for line in fhand:
     words=line.split()
     if len(words) == 0: continue
     if words[0] != 'From':continue
-    eaddress=words[1]
     print(eaddress)
     count=count+1
 print('ther were', count,'lines in the file From as the first word')
